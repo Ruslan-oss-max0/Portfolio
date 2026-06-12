@@ -4,7 +4,7 @@ A personal portfolio website built with React and Vite, showcasing my front-end 
 
 ## Live Demo
 
-[ruslan-oss-max0.github.io/portfolio](https://ruslan-oss-max0.github.io/portfolio/)
+[ruslan-oss-max0.github.io/portfolio](https://ruslan-oss-max0.github.io/Portfolio/)
 
 ## Built With
 
