@@ -1,0 +1,28 @@
+.contact {
+  padding: 80px 5%;
+  text-align: center;
+  background-color: var(--color-bg);
+}
+
+.contact__links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.contact__link {
+  color: var(--color-subtle);
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contact__link:hover {
+  color: var(--color-accent);
+}
+
+.contact__copy {
+  color: var(--color-subtle);
+  font-size: 13px;
+}

@@ -1,0 +1,8 @@
+:root {
+  --color-bg: #293241;
+  --color-surface: #3d5a80;
+  --color-subtle: #98c1d9;
+  --color-light: #e0fbfc;
+  --color-accent: #ee6c4d;
+  --font-main: "Inter", system-ui, sans-serif;
+}
