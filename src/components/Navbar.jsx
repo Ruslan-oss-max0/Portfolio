@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { cvData } from "../data/cvData";
 import "../styles/Navbar.css";
 
 export const Navbar = () => {
@@ -44,17 +43,6 @@ export const Navbar = () => {
 
         {/* Zone 3: Primary Action CTA */}
         <div className="nav-actions">
-          <a
-            href={cvData.cvDownloadUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="nav-btn nav-btn--cv"
-          >
-            <span>Resume</span>
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-              <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4M9.5 2.5V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </a>
           <a href="#contact" className="nav-btn nav-btn--cta">
             Get in Touch
           </a>
@@ -91,15 +79,6 @@ export const Navbar = () => {
             05. About Me
           </a>
           <div className="nav-mobile-actions">
-            <a
-              href={cvData.cvDownloadUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="nav-mobile-btn"
-              onClick={() => setIsOpen(false)}
-            >
-              Download CV (PDF)
-            </a>
             <a
               href="#contact"
               className="nav-mobile-btn nav-mobile-btn--highlight"

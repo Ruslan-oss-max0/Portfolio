@@ -122,14 +122,6 @@ export const ContactSection = () => {
                 <path d="M2.91666 11.0833L11.0833 2.91667M11.0833 2.91667H4.66666M11.0833 2.91667V9.33334" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </a>
-            <a
-              href={cvData.cvDownloadUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn--secondary"
-            >
-              Download Full CV (PDF)
-            </a>
           </div>
         </div>
 

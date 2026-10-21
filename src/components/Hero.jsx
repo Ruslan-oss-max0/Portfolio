@@ -7,11 +7,6 @@ export const Hero = () => {
       <div className="container hero-container">
         {/* Left Column: Typographic Narrative */}
         <div className="hero-content">
-          <div className="hero-badge">
-            <span className="hero-badge__dot"></span>
-            <span className="hero-badge__text">Open to Full-Time Remote Opportunities</span>
-          </div>
-
           <h1 className="hero-headline">
             Junior Front-End Developer
           </h1>
@@ -27,20 +22,6 @@ export const Hero = () => {
           <div className="hero-actions">
             <a href="#projects" className="btn btn--primary">
               View Case Studies
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M7 2.33334V11.6667M7 11.6667L11.6667 7.00001M7 11.6667L2.33334 7.00001" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </a>
-            <a
-              href={cvData.cvDownloadUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn--secondary"
-            >
-              Download CV
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M2.91666 11.0833H11.0833M7 2.91666V8.75M7 8.75L4.66666 6.41666M7 8.75L9.33333 6.41666" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
             </a>
           </div>
 
